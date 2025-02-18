@@ -2,7 +2,7 @@
 
 import { decrement, increment } from "@/store/slice";
 import React from "react";
-import type { RootState } from "../store/store";
+import type { RootState } from "../../store/store";
 import { useDispatch, useSelector } from "react-redux";
 
 const Page = () => {
